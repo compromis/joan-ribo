@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Joan Ribó`,
+    description: `A València em sent lliure. És una ciutat on sóc feliç. Jo, amb Ribó.`,
+    keywords: [`joan ribo`, `compromís`, `valència`, `eleccions municipals`, `ajuntament`, `ayuntamiento`, `alcalde`],
+    author: `@joanribo`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
