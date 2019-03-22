@@ -1,11 +1,15 @@
 import React from "react"
 import PropTypes from "prop-types"
 
+import Fade from "react-reveal/Fade"
+
 const Poster = ({ id, children }) => (
   <section className={['row', 'poster', 'poster-' + id].join(' ')}>
-    <div className="col-lg-6 poster-image"></div>
+    <Fade>
+      <div className="col-lg-6 poster-image"></div>
+    </Fade>
     <div className="col-lg-6 poster-text">
-      { children }
+      <Fade bottom><p>{ children }</p></Fade>
     </div>
   </section>
 )
