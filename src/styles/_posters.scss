@@ -1,0 +1,82 @@
+.poster {
+  &-image {
+    background-color: #F6F2ED;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+  }
+
+  &-text {
+    padding: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 80vh;
+    line-height: 1.25;
+  }
+
+  @each $id, $colors in $posters {
+    &-#{$id} {
+      .poster-image {
+        background-image: url(../images/posters/mobile/poster-#{$id}.jpg);
+      }
+
+      .poster-text {
+        background-color: map-get($colors, 'background');
+        color: map-get($colors, 'text');
+      }
+    }
+  }
+
+  &-1 .poster-image,
+  &-5 .poster-image {
+    background-position: bottom;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .poster {
+    height: 40vw;
+
+    &-image {
+      background-size: 130%;
+      height: 40vw;
+    }
+
+    &-text {
+      padding: 3vw;
+      font-size: 2.5vw;
+      height: 40vw;
+    }
+
+    @each $id, $props in $posters {
+      &-#{$id} {
+        .poster-image {
+          background-image: url(../images/posters/desktop/poster-#{$id}.jpg);
+        }
+
+        .poster-text {
+          text-align: map-get($props, 'align');
+        }
+      }
+    }
+
+    &-2 .poster-image,
+    &-4 .poster-image {
+      order: 2;
+    }
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .poster {
+    height: auto;
+
+    &-text,
+    &-image {
+      height: 40rem;
+      font-size: 2rem;
+      padding: 3rem;
+    }
+  }
+}
