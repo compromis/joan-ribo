@@ -5,12 +5,14 @@ import Fade from "react-reveal/Fade"
 
 const Poster = ({ id, children }) => (
   <section className={['row', 'poster', 'poster-' + id].join(' ')}>
+    <div className="col-lg-6 poster-text">
+      <Fade bottom>
+        <div className="poster-bubble">{ children }</div>
+      </Fade>
+    </div>
     <Fade>
       <div className="col-lg-6 poster-image"></div>
     </Fade>
-    <div className="col-lg-6 poster-text">
-      <Fade bottom><p>{ children }</p></Fade>
-    </div>
   </section>
 )
 

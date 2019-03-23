@@ -1,7 +1,12 @@
 @import 'variables';
-@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'bootstrap';
 @import 'fonts';
+@import 'header';
 @import 'posters';
+
+body {
+  padding-top: 68px;
+}
 
 .container-fluid {
   max-width: 2000px;

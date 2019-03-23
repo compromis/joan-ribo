@@ -1,4 +1,5 @@
 // Colors
+$beige: #F6F2ED;
 $blue: #447F98;
 $indigo: #4D5099;
 $pink: #DE8999;
@@ -10,29 +11,38 @@ $posters: (
   '1': (
     'background': $pink,
     'text': $blue,
-    'align': 'right'
+    'align': right
   ),
   '2': (
     'background': $orange,
     'text': $indigo,
-    'align': 'left'
+    'align': left
   ),
   '3': (
     'background': $green,
     'text': $pink,
-    'align': 'right'
+    'align': right
   ),
   '4': (
     'background': $blue,
     'text': $pink,
-    'align': 'left'
+    'align': left
   ),
   '5': (
     'background': $indigo,
     'text': $orange,
-    'align': 'right'
+    'align': right
   )
 );
 
 // Fonts
 $font-family-sans-serif: 'Compromis', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+// Breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1600px
+) !default;

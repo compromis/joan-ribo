@@ -6,8 +6,8 @@ import Poster from "../components/poster"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Joan Ribó 2019" />
-    <div class="container-fluid">
+    <SEO lang="ca" title="Joan Ribó 2019" />
+    <div className="container-fluid">
       <Poster id="1">“A València em sent lliure.<br />És una ciutat on sóc feliç.”</Poster>
       <Poster id="2">“El cap de setmana me’l passe pedalejant entre concerts i museus.”</Poster>
       <Poster id="3">“Ens encanta passejar de matí pel Parc Central.”</Poster>
