@@ -4,6 +4,7 @@ module.exports = {
     description: `A València em sent lliure. És una ciutat on sóc feliç. Jo, amb Ribó.`,
     keywords: [`joan ribo`, `compromís`, `valència`, `eleccions municipals`, `ajuntament`, `ayuntamiento`, `alcalde`],
     author: `@joanribo`,
+    image: 'https://joanribo.com/images/thumbnail.png'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -36,6 +37,7 @@ module.exports = {
           {
             family: `Oswald`,
             subsets: [`latin`],
+            variants: [`700`]
           }
         ],
       },
