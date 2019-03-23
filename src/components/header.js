@@ -8,7 +8,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaWhatsapp } from "react-icons/fa";
 const Header = ({ siteTitle }) => (
   <Navbar bg="light" expand="lg" fixed="top">
     <div className="container-fluid">
-      <Navbar.Brand href="#home">Joan Ribó <span>2019</span></Navbar.Brand>
+      <Navbar.Brand href="#home"><span className="d-none d-lg-inline">Joan</span> Ribó <span className="year">2019</span></Navbar.Brand>
       <Nav className="navbar-logo">
         <Nav.Link href="https://compromis.net" className="compromis-logo" target="_blank" rel="noopener"><Logo /></Nav.Link>
       </Nav>

@@ -17,6 +17,8 @@
   }
 
   &-bubble {
+    position: relative;
+    z-index: 10;
     padding: 2rem;
     border-radius: 1rem;
   }
