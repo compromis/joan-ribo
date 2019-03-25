@@ -91,6 +91,14 @@
       &.social-icon {
         font-size: 1.5rem;
       }
+
+      &.language-option {
+        display: flex;
+        align-self: center;
+        margin-right: 1.25rem;
+        border-right: 1px $gray-500 solid;
+        padding-right: 1.25rem;
+      }
     }
   }
 }

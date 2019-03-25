@@ -1,6 +1,6 @@
 import React from "react"
 
-import Layout from "../components/layout"
+import Layout from "../layouts/val"
 import SEO from "../components/seo"
 import Poster from "../components/poster"
 
@@ -8,7 +8,7 @@ const IndexPage = () => (
   <Layout>
     <SEO lang="ca" title="Joan Ribó 2019" />
     <div className="container-fluid">
-      <Poster id="1">“A València em sent lliure.<br />És una ciutat on sóc feliç.”</Poster>
+      <Poster id="1">“A València em sent lliure. És una ciutat on sóc feliç.”</Poster>
       <Poster id="2">“El cap de setmana me’l passe pedalejant entre concerts i museus.”</Poster>
       <Poster id="3">“Ens encanta passejar de matí pel Parc Central.”</Poster>
       <Poster id="4">“Este es el centro social que habíamos pedido.”</Poster>

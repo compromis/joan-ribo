@@ -1,11 +1,13 @@
 import PropTypes from "prop-types"
 import React from "react"
+import { FormattedMessage } from "react-intl"
+import { Link } from "gatsby"
 import Navbar from "react-bootstrap/Navbar"
 import Nav from "react-bootstrap/Nav"
 import Logo from "./logo"
 import { FaFacebook, FaTwitter, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
-const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle, locale }) => (
   <Navbar bg="light" expand="lg" fixed="top">
     <div className="container-fluid">
       <Navbar.Brand href="#home"><span className="d-none d-lg-inline">Joan</span> Ribó <span className="year">2019</span></Navbar.Brand>
@@ -19,7 +21,9 @@ const Header = ({ siteTitle }) => (
           <Nav.Link href="https://twitter.com/joanribo" className="social-icon twitter" target="_blank" rel="noopener"><FaTwitter /> <span className="d-lg-none">Twitter</span></Nav.Link>
           <Nav.Link href="https://www.instagram.com/joanribovlc/" className="social-icon instagram" target="_blank" rel="noopener"><FaInstagram /> <span className="d-lg-none">Instagram</span></Nav.Link>
           <Nav.Link href="https://wa.me/15551234567/?text=ALTA" className="social-icon whatsapp" target="_blank" rel="noopener"><FaWhatsapp /> <span className="d-lg-none">Whatsapp</span></Nav.Link>
-          <Nav.Link href="https://compromis.net/espai/donacions/campanya2019" className="donate-button" target="_blank" rel="noopener"><span>Fes una donació</span></Nav.Link>
+          <Nav.Link href="https://compromis.net/espai/donacions/campanya2019" className="donate-button" target="_blank" rel="noopener"><FormattedMessage id="donate" /></Nav.Link>
+          { locale === 'es' ? <Link to="/" className="nav-link language-option">Valencià</Link> : '' }
+          { locale === 'ca' ? <Link to="/cas" className="nav-link language-option">Castellano</Link> : '' }
         </Nav>
       </Navbar.Collapse>
     </div>

@@ -41,6 +41,14 @@ module.exports = {
           }
         ],
       },
+    },
+    {
+      resolve: 'gatsby-plugin-i18n',
+      options: {
+        langKeyDefault: 'val',
+        useLangKeyLayout: true,
+        prefixDefault: false
+      }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
