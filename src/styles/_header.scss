@@ -18,6 +18,8 @@
 
   .nav-link {
     &.social-icon {
+      background: $white;
+
       &.facebook:hover {
         color: #3b5998;
       }

@@ -1,0 +1,78 @@
+.whatsapp {
+  background-color: $beige;
+
+  h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: $orange;
+  }
+
+  h3 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  &-button {
+    margin-top: 1rem;
+    background-color: #25d366;
+    border: none;
+    color: $white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    border-radius: .5rem;
+
+    &:hover {
+      background-color: darken(#25d366, 10%);
+      color: $white;
+      text-decoration: none;
+    }
+
+    svg {
+      position: relative;
+      top: -3px;
+    }
+  }
+
+  &-image {
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/posters/whatsapp-1.jpg");
+    height: 40vh;
+  }
+
+  &-text {
+    padding: 2rem 2rem 0 2rem;
+    font-weight: bold;
+    line-height: 1.25;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  &-bubble {
+    padding: 2rem; 
+    color: $gray-700;
+    justify-self: center;
+    align-self: center;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .whatsapp {
+    &-button {
+      margin-bottom: 3rem;
+    }
+
+    &-image {
+      margin-top: 2rem;
+      height: auto;
+    }
+  }
+}
