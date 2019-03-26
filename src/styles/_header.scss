@@ -14,6 +14,7 @@
     .year {
       color: $gray-500;
     }
+
   }
 
   .nav-link {
@@ -41,6 +42,12 @@
       display: flex;
       align-items: center;
       color: $orange;
+      margin-left: 0rem;
+    
+    &.help-button {
+      display: flex;
+      align-items: center;
+    }
 
       span {
         display: block;
@@ -60,7 +67,6 @@
   }
 
   &-logo {
-    margin-left: auto;
     margin-right: .75rem;
   }
 
@@ -73,6 +79,16 @@
       width: 180px;
     }
   }
+
+  .language-desktop{
+    display: none;   
+  }
+
+  .navbar-language{
+    margin-left: auto;
+    margin-right: .75rem;
+  }
+  
 }
 
 @include media-breakpoint-up(lg) {
@@ -81,12 +97,16 @@
       order: 4;
     }
 
+    .language-mobile{
+      display: none;   
+    }  
+
     .compromis-logo {
       width: 190px;
     }
 
     .donate-button {
-      margin: 0 1rem;
+      margin: 0 0.3rem;
     }
 
     .nav-link {
@@ -96,10 +116,12 @@
 
       &.language-option {
         display: flex;
-        align-self: center;
+        margin-left: auto;
+        margin-right: .75rem;
         margin-right: 1.25rem;
         border-right: 1px $gray-500 solid;
         padding-right: 1.25rem;
+        align-self: center;
       }
     }
   }

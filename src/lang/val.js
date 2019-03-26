@@ -1,7 +1,8 @@
 module.exports = {
-  donate: "Fer una donació",
+  donate: "Ajuda'ns",
   whatsapp_header: "Canal de Whatsapp",
   whatsapp_text: "Estigues al dia de tota la informació de la campanya",
   whatsapp_instructions: "Escriu ALTA al 607 812 839 i guarda't el número als teus contactes",
-  whatsapp_cta: "Subscriu-te!"
+  whatsapp_cta: "Subscriu-te!",
+  join: "Suma't!"
 };

@@ -4,10 +4,13 @@ import Layout from "../layouts/val"
 import SEO from "../components/seo"
 import Poster from "../components/poster"
 import Whatsapp from "../components/whatsapp"
+import Donate from "../components/donate"
+import Footer from "../components/footer"
 
 const IndexPage = () => (
   <Layout>
     <SEO lang="ca" title="Joan Ribó 2019" />
+    <Donate />
     <div className="container-fluid">
       <Poster id="1">“A València em sent lliure. És una ciutat on sóc feliç.”</Poster>
       <Poster id="2">“El cap de setmana me’l passe pedalejant entre concerts i museus.”</Poster>
@@ -16,6 +19,7 @@ const IndexPage = () => (
       <Poster id="5">“En els comerços del barri saben el que necesite.”</Poster>
       <Whatsapp/>
     </div>
+    <Footer />
   </Layout>
 )
 
