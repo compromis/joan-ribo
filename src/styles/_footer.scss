@@ -50,7 +50,9 @@
 }
 
 @include media-breakpoint-up(lg) {
-  p {
-    text-align: right;
+  .footer {
+    p {
+      text-align: right;
+    }
   }
 }

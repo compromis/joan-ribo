@@ -10,7 +10,7 @@ import Footer from "../components/footer"
 const IndexPage = () => (
   <Layout>
     <SEO lang="ca" title="Joan Ribó 2019" />
-    <Donate />
+    <Donate lang="ca" />
     <div className="container-fluid">
       <Poster id="1">“En València me siento libre. Es una ciudad donde soy feliz.”</Poster>
       <Poster id="2">“El fin de semana me lo paso pedaleando entre conciertos y museos.”</Poster>
