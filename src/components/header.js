@@ -26,7 +26,7 @@ const Header = ({ siteTitle, locale }) => (
           <Nav.Link href="https://twitter.com/joanribo" className="social-icon twitter" target="_blank" rel="noopener"><FaTwitter /> <span className="d-lg-none">Twitter</span></Nav.Link>
           <Nav.Link href="https://www.instagram.com/joanribovlc/" className="social-icon instagram" target="_blank" rel="noopener"><FaInstagram /> <span className="d-lg-none">Instagram</span></Nav.Link>
           <Nav.Link href="https://api.whatsapp.com/send?l=ca&phone=34607812839&text=Vull%20rebre%20informaci%C3%B3%20de%20Comprom%C3%ADs%20Val%C3%A8ncia%20al%20meu%20WhatsApp&source=&data=" className="social-icon whatsapp" target="_blank" rel="noopener"><FaWhatsapp /> <span className="d-lg-none">Whatsapp</span></Nav.Link>
-          <Nav.Link href="https://compromis.net/espai/alta?tipus=2" className="donate-button" target="_blank" rel="noopener"><FormattedMessage id="join" /></Nav.Link>
+          <Nav.Link href="https://garantiademocratica.compromis.net" className="donate-button" target="_blank" rel="noopener"><FormattedMessage id="join" /></Nav.Link>
           <Nav.Link href={'https://compromis.net/espai/donacions/campanya2019/' + (locale === 'es' ? 'ca' : 'va') + '/Valencia'} className="donate-button" target="_blank" rel="noopener"><FormattedMessage id="donate" /></Nav.Link>
           { locale === 'es' ? <Link to="/" className="nav-link language-option language-desktop">Valencià</Link> : '' }
           { locale === 'ca' ? <Link to="/cas" className="nav-link language-option language-desktop">Castellano</Link> : '' }
