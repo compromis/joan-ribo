@@ -3,8 +3,8 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgba($white, .85);
-  color: $orange;
+  background-color: rgba($orange, .85);
+  color: $white;
   text-align: center; 
   z-index: 100;
   padding: 0.8rem 1rem;
@@ -15,7 +15,7 @@
   }
 
   &-text {
-    color: $gray-600;
+    color: $white;
     align-self: center;
     margin: 0 1rem 0 0;
     text-align: left;
@@ -23,5 +23,7 @@
 
   &-button {
     margin-left: auto;
+    background-color: $white;
+    color: $orange;
   }
 }
