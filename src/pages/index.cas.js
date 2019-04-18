@@ -5,6 +5,7 @@ import SEO from "../components/seo"
 import Poster from "../components/poster"
 import Whatsapp from "../components/whatsapp"
 import Donate from "../components/donate"
+import News from "../components/news"
 import Footer from "../components/footer"
 
 const IndexPage = () => (
@@ -18,6 +19,7 @@ const IndexPage = () => (
       <Poster id="4">“Este es el centro social que habíamos pedido.”</Poster>
       <Poster id="5">“En los comercios del barrio saben lo que necesito.”</Poster>
       <Whatsapp />
+      <News />
     </div>
     <Footer />
   </Layout> 
