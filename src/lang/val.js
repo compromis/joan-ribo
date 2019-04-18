@@ -7,12 +7,13 @@ module.exports = {
   whatsapp_cta: "Subscriu-te!",
   join: "Voluntaris",
   follow: "Segueix l'activitat de",
-
   donate_action_header: "Ajuda'ns a fer la campanya",
   donate_action_text: "Amb una simple donació, ajudes a fer Joan Ribó alcalde.",
   donate_action_cta: "Fes una donación",
-
   inspector_action_header: "Sigues garantia de democràcia",
   inspector_action_text: "El 28 d’abril, fes-te interventor/a o apoderat/da de Compromís per a garantir que cada vot compta.",
-  inspector_action_cta: "Fes-te interventor/a"
-};
+  inspector_action_cta: "Fes-te interventor/a",
+  news_header: "Notícies",
+  news_more_on: "Més notícies en valencia.compromis.net",
+  news_read_more: "Continua llegint..."
+}
