@@ -11,7 +11,7 @@ module.exports = {
   donate_action_text: "Con una simple donación, ayudas a hacer a Joan Ribó alcalde",
   donate_action_cta: "Haz una donación",
   inspector_action_header: "Sé garantía de democracia",
-  inspector_action_text: "El 28 de abril, hazte interventor/a o apoderado/a de Compromís para garantizar que cada voto cuente.",
+  inspector_action_text: "El 26 de mayo, hazte interventor/a o apoderado/a de Compromís para garantizar que cada voto cuente.",
   inspector_action_cta: "Hazte interventor/a",
   news_header: "Noticias",
   news_more_on: "Más noticias en valencia.compromis.net",
