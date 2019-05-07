@@ -15,5 +15,6 @@ module.exports = {
   inspector_action_cta: "Hazte interventor/a",
   news_header: "Noticias",
   news_more_on: "Más noticias en valencia.compromis.net",
-  news_read_more: "Leer más"
+  news_read_more: "Leer más",
+  events_header: "Actos"
 }
