@@ -18,6 +18,7 @@
     justify-items: center;
 
     &-wrapper {
+      width: 100%;
       align-self: center;
     }
   }
@@ -32,7 +33,10 @@
   }
 
   &-buttons {
-    padding: 1rem 0;
+    margin: 0 -2rem;
+    padding: 1rem 2rem;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
 
     .button {
       font-weight: bold;
