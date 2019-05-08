@@ -69,7 +69,7 @@
 
 @include media-breakpoint-up(xl) {
   .hero {
-    height: 30vw;
+    min-height: 30vw;
 
     &-image {
       background-size: 100%;
