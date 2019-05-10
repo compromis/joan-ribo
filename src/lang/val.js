@@ -6,7 +6,7 @@ module.exports = {
   whatsapp_instructions: "Escriu ALTA al 607 812 839 i guarda't el número als teus contactes",
   whatsapp_cta: "Subscriu-te!",
   join: "Voluntaris",
-  programa: "Programa",
+  programa: "Propostes",
   follow: "Segueix l'activitat de",
   donate_action_header: "Ajuda'ns a fer la campanya",
   donate_action_text: "Amb una simple donació, ajudes a fer Joan Ribó alcalde.",
