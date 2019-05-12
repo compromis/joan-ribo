@@ -2,7 +2,7 @@ import React from "react"
 import JoAmbRibo from "./joambribo"
 import { FormattedMessage } from 'react-intl'
 
-const Hero = ({ locale }) => (
+const Hero = ({ lang }) => (
   <section className='hero row'>
     <div className="col-sm-4 hero-image"></div>
     <div className="col-sm-8 hero-content"> 
@@ -12,9 +12,9 @@ const Hero = ({ locale }) => (
         </div>
         <div className="hero-buttons">
           <a className="button" href="#calendar"><FormattedMessage id="events_header"/></a>
-          <a className="button" href={'/docs/propostes-2019-' + (locale === 'es' ? 'cas' : 'val') + '.pdf'}><FormattedMessage id="programa"/></a>
+          <a className="button" href={'/docs/propostes-2019-' + lang + '.pdf'}><FormattedMessage id="programa"/></a>
           <a className="button" href="https://garantiademocratica.compromis.net/?city=7359"><FormattedMessage id="join"/></a>
-          <a className="button" href={'https://compromis.net/espai/donacions/campanya2019/' + (locale === 'es' ? 'ca' : 'va') + '/Valencia'}><FormattedMessage id="donate"/></a>
+          <a className="button" href={'https://compromis.net/espai/donacions/campanya2019/' + (lang === 'cas' ? 'ca' : 'va') + '/Valencia'}><FormattedMessage id="donate"/></a>
         </div>
       </div>
     </div> 

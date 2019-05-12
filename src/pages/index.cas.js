@@ -12,10 +12,10 @@ import Calendar from "../components/calendar"
 
 const IndexPage = () => (
   <Layout>
-    <SEO lang="ca" title="Joan Ribó 2019" />
-    <Donate lang="ca" />
+    <SEO lang="es" title="Joan Ribó 2019" />
+    <Donate lang="cas" />
     <div className="container-fluid">
-      <Hero />
+      <Hero lang="cas" />
       <Video />
       <Whatsapp />
       <Action />

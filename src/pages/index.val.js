@@ -16,7 +16,7 @@ const IndexPage = () => (
     <SEO lang="ca" title="Joan Ribó 2019" />
     <Donate lang="va" />
     <div className="container-fluid">
-      <Hero />
+      <Hero lang="val" />
       <Video />
       <Whatsapp/>
       <Action />
