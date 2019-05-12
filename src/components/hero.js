@@ -13,7 +13,7 @@ const Hero = ({ locale }) => (
         <div className="hero-buttons">
           <a className="button" href="#calendar"><FormattedMessage id="events_header"/></a>
           <a className="button" href={'/docs/propostes-2019-' + (locale === 'es' ? 'cas' : 'val') + '.pdf'}><FormattedMessage id="programa"/></a>
-          <a className="button" href="https://garantiademocratica.compromis.net"><FormattedMessage id="join"/></a>
+          <a className="button" href="https://garantiademocratica.compromis.net/?city=7359"><FormattedMessage id="join"/></a>
           <a className="button" href={'https://compromis.net/espai/donacions/campanya2019/' + (locale === 'es' ? 'ca' : 'va') + '/Valencia'}><FormattedMessage id="donate"/></a>
         </div>
       </div>
