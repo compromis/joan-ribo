@@ -6,7 +6,7 @@ import { FaWhatsapp } from "react-icons/fa";
 const Whatsapp = () => (
   <section className={['row', 'whatsapp'].join(' ')}>
     <div className="col-lg-6 whatsapp-text">
-      <Fade bottom>
+      <Fade bottom cascade>
         <div className={'whatsapp-bubble'}> 
             <h2><FormattedMessage id="whatsapp_header" /></h2>
             <h3 className="mb-4"><FormattedMessage id="whatsapp_text" /></h3>

@@ -5,7 +5,7 @@ import Fade from "react-reveal/Fade"
 const TakeAction = () => (
   <section className={['row', 'take-action'].join(' ')}>
     <div className="col-lg-6">
-      <Fade bottom>
+      <Fade bottom cascade>
         <div className="take-action-bubble"> 
             <h2><FormattedMessage id="donate_action_header" /></h2>
             <p><FormattedMessage id="donate_action_text" /></p>
@@ -16,7 +16,7 @@ const TakeAction = () => (
       </Fade>
     </div>
     <div className="col-lg-6">
-      <Fade bottom>
+      <Fade bottom cascade>
         <div className="take-action-bubble"> 
             <h2><FormattedMessage id="inspector_action_header" /></h2>
             <p><FormattedMessage id="inspector_action_text" /></p>
