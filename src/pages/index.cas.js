@@ -9,6 +9,7 @@ import Footer from "../components/footer"
 import Hero from "../components/hero"
 import Video from "../components/video"
 import Calendar from "../components/calendar"
+import Top15 from "../components/top15";
 
 const IndexPage = () => (
   <Layout>
@@ -19,6 +20,7 @@ const IndexPage = () => (
       <Video />
       <Whatsapp />
       <Action />
+      <Top15 lang="cas" />
       <Calendar />
       <News />
     </div>
